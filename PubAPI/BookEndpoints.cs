@@ -56,6 +56,7 @@ public static class BookEndpoints
             book.Title = input.Title;
             book.PublishDate = input.PublishDate;
             book.AuthorId = input.AuthorId;
+            book.BasePrice = input.BasePrice;
             // …any other props…
 
             await db.SaveChangesAsync();
