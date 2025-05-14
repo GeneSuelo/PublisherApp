@@ -48,6 +48,7 @@ app.MapGet("/weatherforecast", () =>
 .WithOpenApi();
 
 app.MapAuthorEndpoints();
+app.MapBookEndpoints();
 
 app.Run();
 
